@@ -21,3 +21,9 @@ V8 is written in C++ and is used in Google Chrome, the open source browser from 
 V8 can run standalone, or can be embedded into any C++ application.
 
 V8 Project page: https://v8.dev/docs
+
+# PHPv8JS Docker
+
+```
+docker compose up -d --build
+```
