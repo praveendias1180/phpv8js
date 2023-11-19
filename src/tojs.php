@@ -18,4 +18,4 @@ $v8->var = $phpVar;
  */
 $v8->executeString('var jsVar = PHP.var;');
 
-echo $v8->executeString('jsVar;'); // Output: Hello, JavaScript!
+echo $v8->executeString('jsVar;') . "\n"; // Output: Hello, JavaScript!
